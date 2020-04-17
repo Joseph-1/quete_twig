@@ -1,0 +1,20 @@
+{
+  "name": "joseph/composer",
+  "description": "new test composer",
+  "authors": [
+    {
+      "name": "Joseph",
+      "email": "test@gmail.com"
+    }
+  ],
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Joseph\\": "src"
+    }
+  },
+  "require": {
+    "twig/twig": "^3.0"
+  }
+}
